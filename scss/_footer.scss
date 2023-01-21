@@ -1,0 +1,30 @@
+footer {
+    font-family: 'Stardos Stencil', cursive;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: gold;
+    ul {
+        li {
+            display: flex !important;
+            justify-content: space-evenly !important;
+            a {
+                font-size: 20px;
+                padding:3px ;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                background-color: black;
+                color: goldenrod;
+                border-radius: 50%;
+                box-shadow: 2px 2px 5px gold;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    background: goldenrod;
+                    color: black;
+                    box-shadow: 2px 2px 5px black;
+                }
+            }
+        }
+    }
+}

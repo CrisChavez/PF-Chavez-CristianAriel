@@ -1,0 +1,44 @@
+/* ESTILOS FORMULARIO DE CONTACTO */
+
+.info-form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Stardos Stencil', cursive;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+#form-btn {
+    margin-bottom: 10px;
+    border: none;
+    outline: 0;
+    background: black;
+    color: gold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms ease;    
+    &:hover {
+        background: white;
+        color: black;
+    }
+}
+
+.info-contacto-general p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.info-contacto-general a{
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+    .info-contacto-general a i {
+        color: rgb(0, 0, 0);
+        margin-right: 10px;
+        }
+    }
