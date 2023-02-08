@@ -4,10 +4,15 @@ footer {
     text-decoration: none;
     background-color: black;
     color: gold;
+    height: 120px;
+    margin-top: auto;
+
     ul {
         li {
             display: flex !important;
             justify-content: space-evenly !important;
+            margin-top: 15px;
+            margin-bottom: 15px;
             a {
                 font-size: 20px;
                 padding:3px ;

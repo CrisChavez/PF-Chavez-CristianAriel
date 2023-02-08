@@ -1,14 +1,8 @@
 .video-intro {
-    width: 100%;
-    height: 88vh;
+    width: 98vw;
+    height: 85vh;
+    margin: auto;
 }
-/* ESTILO VIDEO RESPONSIVE */
-/* iframe {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-} */
-
 
 #compra {
     font-family: 'Stardos Stencil', cursive;
@@ -18,25 +12,5 @@
     object-fit: cover;
     &:hover {
         transform: scale(1.2);
-    }
-}
-
-
-#audiencia-1 {
-    margin: 1rem;
-    transition: 0.5s;
-    object-fit: cover;
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-
-#audiencia-2 {
-    margin: 1rem;
-    transition: 0.5s;
-    object-fit: cover;
-    &:hover {
-        transform: scale(1.1);
     }
 }

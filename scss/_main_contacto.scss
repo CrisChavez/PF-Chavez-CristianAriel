@@ -4,13 +4,14 @@
     display: flex;
     justify-content: center;
     font-family: 'Stardos Stencil', cursive;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
 #form-btn {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     border: none;
     outline: 0;
     background: black;
@@ -24,21 +25,19 @@
     }
 }
 
-.info-contacto-general p{
-    font-size: 17px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
 .info-contacto-general a{
     font-size: 17px;
     display: inline-block;
+    text-decoration: none;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: black;
     font-weight: 700;
     .info-contacto-general a i {
         color: rgb(0, 0, 0);
-        margin-right: 10px;
+        }
+        &:hover {
+            font-size: 18px;
+            color: black;
         }
     }

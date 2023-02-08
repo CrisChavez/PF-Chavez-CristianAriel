@@ -1,12 +1,9 @@
-#equipo {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-#center {
-    display: flex;
-    justify-content: center;
-    margin-left: 28vw;
-    width: 35vw;
-    height: 45vh;
+main {
+    img {
+        transition: all 0.8 ease;
+        &:hover {
+            filter: grayscale(1);
+            transition: all 0.6 ease;
+        }
+    }
 }

@@ -9,9 +9,16 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 #color {
     background-color: gold;
 }
+
 
 @import "./variables";
 
@@ -29,24 +36,11 @@ html {
 
 @import "./footer";
 
-// PRUEBA TEXTO COMENTADO
+
 /* MEDIA QUERYS */
 
-@media (max-width: 480px) {
+@media (max-width: 280px) {
     #carouselExampleIndicators {
         display: none;
     }
 }
-
-/* @media (max-width: 480px) {
-    #compra {
-        display: none;
-    }
-} */
-
-
-// @media (max-width: 720px) {
-//     .video-intro {
-//         display: none;
-//     }
-// }
